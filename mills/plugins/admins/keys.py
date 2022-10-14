@@ -34,7 +34,7 @@ async def _(m):
     type = 'hour' if params == 'test' else 'day'
     rand_digit = random.random_integer()
     rand_string = random.random_string(5)
-    key = f"MILLIE-{rand_digit}-{rand_string}-PREMIUM"
+    key = f"BLACKBIN-{rand_digit}-{rand_string}-PRO"
     add = {
         '_id': key,
         'data': data,
@@ -66,7 +66,7 @@ async def _(m):
 @bot_cmd(cmd="dkey", admins_only = True)
 async def _(m):
     params = m.pattern_match.group(1).strip()
-    if not params or not ( params.startswith('BLACKBIN-') and params.endswith('SPECIAL') ):
+    if not params or not ( params.startswith('BLACKBIN-') and params.endswith('PRO') ):
         await m.sod("Wrong Input Check Example: <code>/dkey key</code>", time = 5)
         return
     is_key = await m.mdb.find_one('keys', {'_id': params})
