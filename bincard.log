@@ -1,0 +1,65 @@
+2022-10-14 at 16:16:11 | INFO | Enabled logging intro userver.log file.
+2022-10-14 at 16:16:11 | INFO | Using 3.10.8 version of Python.
+2022-10-14 at 16:16:11 | INFO | Failed to load SSL library: <class 'OSError'> (no library called "ssl" found)
+2022-10-14 at 16:16:11 | INFO | cryptg detected, it will be used for encryption
+2022-10-14 at 16:16:12 | INFO | Loaded config.yml
+2022-10-14 at 16:16:13 | INFO | 
+            ----------------------------------------------------------------------
+                Deploying Black Bincard! Visit @BlackBincards for updates!!
+            ----------------------------------------------------------------------
+
+2022-10-14 at 16:16:13 | INFO | Starting client
+2022-10-14 at 16:16:13 | INFO | Connecting to 91.108.56.105:443/TcpFull...
+2022-10-14 at 16:16:13 | INFO | Connection to 91.108.56.105:443/TcpFull complete!
+2022-10-14 at 16:16:13 | INFO | Logged In as Wrinstor
+2022-10-14 at 16:16:13 | INFO | Using DC 5
+2022-10-14 at 16:16:15 | INFO | Starting client
+2022-10-14 at 16:16:15 | INFO | Connecting to 149.154.167.51:443/TcpFull...
+2022-10-14 at 16:16:15 | INFO | Connection to 149.154.167.51:443/TcpFull complete!
+2022-10-14 at 16:16:17 | INFO | Phone migrated to 1
+2022-10-14 at 16:16:17 | INFO | Reconnecting to new data center 1
+2022-10-14 at 16:16:18 | INFO | Disconnecting from 149.154.167.51:443/TcpFull...
+2022-10-14 at 16:16:18 | INFO | Disconnection from 149.154.167.51:443/TcpFull complete!
+2022-10-14 at 16:16:18 | INFO | Connecting to 149.154.175.53:443/TcpFull...
+2022-10-14 at 16:16:21 | INFO | Connection to 149.154.175.53:443/TcpFull complete!
+2022-10-14 at 16:16:23 | INFO | Logged In as Bincards Checker
+2022-10-14 at 16:16:23 | INFO | Using DC 1
+2022-10-14 at 16:16:23 | INFO | Bot Username: @BinCardsCcCheckerbot
+2022-10-14 at 16:16:23 | INFO | Bot Full Name: Bincards Checker
+2022-10-14 at 16:16:23 | INFO | Bot Id: 5410031112
+2022-10-14 at 16:16:31 | INFO | Cached 21 keys
+2022-10-14 at 16:16:41 | INFO | Cached 21 keys
+2022-10-14 at 16:16:42 | INFO | Connected to Redis
+2022-10-14 at 16:16:44 | INFO | Mongodb Connected...
+2022-10-14 at 16:16:44 | INFO | importing bins.
+2022-10-14 at 16:17:01 | INFO | imported bins.
+2022-10-14 at 16:17:01 | INFO | imported quotes.
+2022-10-14 at 16:17:01 | INFO | Loaded 1643 quotes
+2022-10-14 at 16:17:01 | INFO | check if gates are added or not.
+2022-10-14 at 16:17:01 | INFO | Initialising...
+2022-10-14 at 16:17:03 | INFO | Took 50s seconds to deploy Millie
+2022-10-14 at 16:17:03 | INFO | 
+            ----------------------------------------------------------------------
+                BlackBincard has been deployed! Visit @BlackBincards for updates!!
+            ----------------------------------------------------------------------
+
+2022-10-14 at 16:17:04 | INFO | Timeout waiting for updates expired
+2022-10-14 at 16:17:28 | INFO | The server closed the connection
+2022-10-14 at 16:17:28 | INFO | <class 'OSError'> during disconnect: [WinError 121] The semaphore timeout period has expired
+2022-10-14 at 16:17:28 | INFO | Connection closed while receiving data
+2022-10-14 at 16:17:28 | INFO | Closing current connection to begin reconnect...
+2022-10-14 at 16:17:28 | INFO | <class 'OSError'> during disconnect: [WinError 121] The semaphore timeout period has expired
+2022-10-14 at 16:17:28 | INFO | Connecting to 149.154.175.53:443/TcpFull...
+2022-10-14 at 16:17:35 | INFO | The server closed the connection
+2022-10-14 at 16:17:35 | INFO | <class 'OSError'> during disconnect: [WinError 121] The semaphore timeout period has expired
+2022-10-14 at 16:17:35 | INFO | Connection closed while receiving data
+2022-10-14 at 16:17:35 | INFO | Closing current connection to begin reconnect...
+2022-10-14 at 16:17:35 | INFO | <class 'OSError'> during disconnect: [WinError 121] The semaphore timeout period has expired
+2022-10-14 at 16:17:35 | INFO | Connecting to 91.108.56.105:443/TcpFull...
+2022-10-14 at 16:17:38 | WARNING | Attempt 1 at connecting failed: TimeoutError: 
+2022-10-14 at 16:17:45 | WARNING | Attempt 1 at connecting failed: TimeoutError: 
+2022-10-14 at 16:17:49 | WARNING | Attempt 2 at connecting failed: TimeoutError: 
+2022-10-14 at 16:17:50 | INFO | Disconnecting from 149.154.175.53:443/TcpFull...
+2022-10-14 at 16:17:50 | INFO | <class 'OSError'> during disconnect: [WinError 121] The semaphore timeout period has expired
+2022-10-14 at 16:17:50 | INFO | Disconnection from 149.154.175.53:443/TcpFull complete!
+2022-10-14 at 16:17:50 | INFO | Not disconnecting (already have no connection)
